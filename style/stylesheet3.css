@@ -89,6 +89,7 @@ table{
     font-size: 20px;
     margin:20px
     
+    
 
 }
 th,td, tr {
@@ -103,10 +104,14 @@ color:aqua;
     display: flex;
     justify-content: center;
     align-items: center;
+
     
 }
 #video iframe{
     border: 10px blue solid;
+    width: 560px;
+    height: 315px;
+   
 }
 #map iframe{
   border:10px blue solid;
