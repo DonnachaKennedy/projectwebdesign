@@ -10,7 +10,7 @@ header {
     float:center;
     width:80%;
     border: 1px solid grey;
-    color: lime;
+    color: whitesmoke;
 }
 
   
@@ -27,6 +27,7 @@ aside {
 }
 aside ul li a {
     color: lime;
+    
 }
 
     
@@ -79,6 +80,21 @@ background-color: black;
 text-decoration-color: white;
 background-image: url("../images/background4.webp");
 }
+
+table{
+    color:white;
+    width:95%;
+    border: 5px solid blue;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin:20px
+    
+
+}
+th,td, tr {
+    border: 5px solid blue;
+    text-align: center;
+}
 p a
 {
 color:aqua;
@@ -93,7 +109,31 @@ color:aqua;
     border: 10px blue solid;
 }
 
+
+#form label{
+    float:left;
+    width:112px
     
+    
+}
 
+#form input{
+    margin-left:1em;
+    margin-bottom:.5em;
+    width:220px;
+}
+#form #button, #reset{
+    margin-top: .5em;
+    width: 8em;
+    
+    border: 2px solid black;
 
-   
+}
+#form input[type="checkbox"] {width:15px;}
+#form #button{
+    margin-left: 138px;
+}
+#form #reset{
+    margin-left: 138px;
+}
+
