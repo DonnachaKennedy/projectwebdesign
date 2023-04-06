@@ -108,6 +108,15 @@ color:aqua;
 #video iframe{
     border: 10px blue solid;
 }
+#map iframe{
+  border:10px blue solid;
+}
+#map {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
 label {
     float: left;
     width:112px
