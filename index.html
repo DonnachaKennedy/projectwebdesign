@@ -139,19 +139,32 @@
     <h3>Sign up for our newsletter! &#128517;</h3>
     <form action = "http://foo.com" method ="get">
         <label for = "first_name">First name:<span class="required">*</span></label>
-        <input type ="text" name="first_name" id="first_name" autofocus required>
-        <br>
+        <input type ="text" name="first_name" id="first_name" autofocus required><br>
         <label for ="last_name">Last name:<span class="required">*</span></label>
-        <input type ="text" name="Last_name" id="Last_name">
-        <br>
+        <input type ="text" name="Last_name" id="Last_name" required><br>
         <label for = "email">Email Address:<span class="required">*</span></label>
-        <input type ="text" name="email" id="email">
-        <br>
-        <label for="message"> Query :</label>
-        <textarea cols="40" rows="6" id="message"  data-maxlength="200">
-        </textarea>
-            <input type="submit" name="submit" id="button" value="Submit">
-            <input type="reset" name="reset" id="reset">
+        <input type ="email" name="email" id="email" required placeholder="jim@example.com"><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" id="gender" name="gender" value="male"> Male
+        <input type="radio" id="gender" name="gender" value="female"> Female
+        <input type="radio" id="gender" name="gender" value="other" checked> Other <br>
+        <label for ="internet"> Heard of us: </label>
+        <fieldset>
+            <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+            <input type="checkbox" class="margin1" id="hearr" name="paper" value="paper"> Newspaper <br>
+            <input type="checkbox" class="margin1" id="hear" name="friend" value="friend"> Friend <br>
+            <input type="checkbox" class="margin1" id="hear2" name="Add" value="Add"> Others <br>
+
+        </fieldset> <br>
+        <label for="message">Query : </label>
+        <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+        <input type="submit" name="submit" id="button" value="Submit">
+        <input type="reset" name="reset" id="reset" value="reset">
+    </form>
+        <p style="margin-left: 138px"> <span class="required">*</span> <em> Indicates a required field </em> </p>
+
+
+        
             
        
         
@@ -161,7 +174,7 @@
         
 
 
-    </form>
+    
 
 
 </section> 

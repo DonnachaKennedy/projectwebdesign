@@ -124,7 +124,9 @@ color:aqua;
 }
 label {
     float: left;
-    width:112px
+    width:112px;
+    padding-right: 10px;
+    text-align: right;
     
     
 }
@@ -146,6 +148,12 @@ input[type="checbox"] {width:15px;}
 #reset {
     margin-left:82px;
 }
+input[type="radio"] {width: 10px;}
+.required {
+    font-weight:bold;
+    color: red;
+}
+
 
 
 
